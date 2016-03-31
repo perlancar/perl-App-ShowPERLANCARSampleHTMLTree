@@ -27,7 +27,7 @@ $SPEC{show_perlancar_sample_html_tree} = {
 sub show_perlancar_sample_html_tree {
     my %args = @_;
 
-    gen_sample_html(size => $args{size}));
+    gen_sample_html(size => $args{size});
 }
 
 1;
