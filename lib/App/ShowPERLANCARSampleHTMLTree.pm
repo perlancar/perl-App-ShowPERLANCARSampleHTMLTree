@@ -7,7 +7,7 @@ use 5.010001;
 use strict;
 use warnings;
 
-use PERLANCAR::HTML::Tree::Examples qw(gen_sample_html);
+use PERLANCAR::HTML::Tree::Examples qw(gen_sample_data);
 
 our %SPEC;
 
@@ -27,7 +27,7 @@ $SPEC{show_perlancar_sample_html_tree} = {
 sub show_perlancar_sample_html_tree {
     my %args = @_;
 
-    gen_sample_html(size => $args{size});
+    gen_sample_data(size => $args{size});
 }
 
 1;
