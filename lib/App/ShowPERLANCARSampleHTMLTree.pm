@@ -16,7 +16,7 @@ $SPEC{show_perlancar_sample_html_tree} = {
     summary => 'Show sample HTML from PERLANCAR::HTML::Tree::Examples',
     args => {
         size => {
-            schema => $PERLANCAR::HTML::Tree::Examples::SPEC{gen_sample_html}{args}{size}{schema},
+            schema => $PERLANCAR::HTML::Tree::Examples::SPEC{gen_sample_data}{args}{size}{schema},
             req => 1,
             pos => 0,
         },
